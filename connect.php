@@ -1,6 +1,6 @@
 <?php
 
-$con = new mysqli("sql204.epizy.com","epiz_32241735","0M3GdOI6ia", "epiz_32241735_crudoperation");
+$con = new mysqli("localhost","root","", "database");
 
 if(!$con){
     die(mysqli_error($con)); //error
